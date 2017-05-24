@@ -17,7 +17,7 @@ public class BankATM {
 		
 		double newAccountBalance=10000;
 		if(balance<newAccountBalance|(balance<10000)){
-			throw new BankATMExcepion("Balance is less than 10000. Cannot withdraw");
+			throw new BankATMExcepion("Balance is less than 10000. Cannot withdraw the amount");
 			
 		}
 		else{
@@ -29,7 +29,7 @@ public class BankATM {
 	public void deposit(double amount)throws BankATMExcepion {
 		double newAccountBalance=10000;
 		if(amount<0.0){
-			throw new BankATMExcepion("cannot deposit");
+			throw new BankATMExcepion("cannot deposit the amount");
 			
 	}else{
 		newAccountBalance =balance+amount;
