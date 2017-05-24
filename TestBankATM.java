@@ -2,9 +2,9 @@ package com.example.mypackage;
 
 public class TestBankATM {
 public static void main(String[] args) {
-	BankATM b1=new BankATM(1000, "state  bank", "navi mumbai", 10000);
-	BankATM b2=new BankATM(1000, "state bank", "navi mumbai", 10000);
-	BankATM b3=new BankATM(1000, "state bank", "navi mumbai", 10000);
+	BankATM b1=new BankATM(1000, "state  bank", "chennai", 10000);
+	BankATM b2=new BankATM(1000, "state bank", "chennai", 10000);
+	BankATM b3=new BankATM(1000, "state bank", "chennai", 10000);
 	try {
 		b1.withdraw(400);
 		b1.deposit(300);
