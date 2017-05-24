@@ -1,4 +1,4 @@
-package com.example.mypackage
+package com.example.mypackage;
 
 public class BankATM {
 	
@@ -40,4 +40,6 @@ public class BankATM {
 	
 	
 
-	}}
+	}
+
+}
